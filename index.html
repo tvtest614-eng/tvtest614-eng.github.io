@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Next Level Magazin</title>
+
+<style>
+body {
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header {
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.container {
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+}
+
+.main-post {
+    background:white;
+    padding:20px;
+}
+
+.main-post img {
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.sidebar {
+    background:white;
+    padding:20px;
+}
+
+.cards {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+.card {
+    background:white;
+    padding:15px;
+}
+
+.card img {
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.card h4 {
+    margin:10px 0 5px 0;
+}
+
+.footer {
+    margin-top:40px;
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+button {
+    background:#ff3c00;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+NEXT LEVEL MAGAZİN
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="main-post">
+<img src="https://picsum.photos/800/400">
+<h2>Manşet Haber Başlığı</h2>
+<p>Buraya manşet haber açıklaması gelecek. Pinterest trafiği buraya yönlenecek.</p>
+<button>Devamını Oku</button>
+</div>
+
+<div class="sidebar">
+<h3>Duyuru</h3>
+<p>Buraya admin panelden kontrol edeceğimiz duyuru alanı gelecek.</p>
+
+<hr>
+
+<h3>Reklam Alanı</h3>
+<p>Reklam kodu buraya gelecek.</p>
+</div>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://picsum.photos/401/300">
+<h4>Haber 1</h4>
+<p>Kısa açıklama...</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/402/300">
+<h4>Haber 2</h4>
+<p>Kısa açıklama...</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/403/300">
+<h4>Haber 3</h4>
+<p>Kısa açıklama...</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Next Level Magazin
+</div>
+
+</body>
+</html>
